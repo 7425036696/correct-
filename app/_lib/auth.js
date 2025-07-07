@@ -5,8 +5,8 @@ import { createGuest, getGuest } from "./data-service";
 const authConfig = {
   providers: [
     Google({
-      clientId: process.env.AUTH_GOOGLE_ID,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET,
+      clientId: 452176766515-nmsavg3j94mhkn2n4iece951u8k9qdmq.apps.googleusercontent.com,
+      clientSecret: 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,
     }),
   ],
   callbacks: {
